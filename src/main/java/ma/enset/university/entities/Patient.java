@@ -10,16 +10,16 @@ import java.util.Date;
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor @Builder
 public class Patient {
-//    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-   @Id
-    private Long id;
-    @Column(name = "Nom")
-    private String nom;
-    @Column(name = "DateNaissance")
-    private String dateNaissance;
-    @Column(name = "Malade")
-    private boolean malade;
-    @Column(name = "Score")
-    private int score;
+ //    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+ @Id
+ private Long id;
+ @Column(name = "Nom")
+ private String nom;
+ @Column(name = "DateNaissance")
+ private String dateNaissance;
+ @Column(name = "Malade")
+ private boolean malade;
+ @Column(name = "Score")
+ private int score;
 
 }
